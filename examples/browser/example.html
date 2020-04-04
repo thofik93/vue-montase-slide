@@ -4,18 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Vue Montase Slider Example</title>
+    <link rel="stylesheet" href="../../dist/vue-montase-slider.css">
 </head>
 
 <body>
     <div id="app">
-        
+        <label>{{text}}</label>
+        <vue-montase-slider></vue-montase-slider>
     </div>
     <script src="https://unpkg.com/vue@2.1.8/dist/vue.js"></script>
-    <script src="https://unpkg.com/vue-clickaway@2.1.0/dist/vue-clickaway.js"></script>
-    <script src="https://unpkg.com/vue-instant@1.0.3/dist/vue-instant.browser.js"></script>
+    <script src="../../dist/vue-montase-slider.browser.js"></script>
     <script>
     new Vue({
-        el: '#app'
+        el: '#app',
+        data () {
+            text: 'Example'
+        },
+        components: {
+            'vue-montase-slider': VueMontaseSlider.VueMontaseSlider
+        }
     })
     </script>
 </body>
