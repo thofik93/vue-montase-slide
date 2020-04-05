@@ -1,14 +1,14 @@
-import VueMontaseSlider from './components/VueMontaseSlider.vue'
+import VueMontaseSlide from './components/VueMontaseSlide.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('vueMontaseSlider', VueMontaseSlider)
+  Vue.component('vueMontaseSlide', VueMontaseSlide)
   /* -- Add more components here -- */
 }
 
 // Expose the components
 export {
-  VueMontaseSlider
+  VueMontaseSlide
   /* -- Add more components here -- */
 }
 

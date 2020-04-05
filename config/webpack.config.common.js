@@ -4,14 +4,14 @@ var base = require('./webpack.config.base')
 var path = require('path')
 var distDir = path.join(__dirname, '../dist')
 
-var outputFile = 'vue-montase-slider'
-var globalName = 'VueMontaseSlider'
+var outputFile = 'vue-montase-slide'
+var globalName = 'VueMontaseSlide'
 
 module.exports = merge(base, {
   output: {
     path: distDir,
     filename: outputFile + '.common.js',
-    library: 'vue-montase-slider',
+    library: 'vue-montase-slide',
     libraryTarget: 'commonjs2',
   },
   target: 'node',

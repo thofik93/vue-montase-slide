@@ -1,8 +1,8 @@
 var webpack = require('webpack')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-var outputFile = 'vue-montase-slider'
-var globalName = 'VueMontaseSlider'
+var outputFile = 'vue-montase-slide'
+var globalName = 'VueMontaseSlide'
 
 var config = require('../package.json')
 
